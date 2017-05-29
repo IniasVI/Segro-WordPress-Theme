@@ -1,0 +1,34 @@
+.realisaties{
+    width: 80%;
+    margin: 5rem auto 0;
+    overflow: auto;
+    
+    .realisatie{
+        width: 30%;
+        height: 20rem;
+        margin: 1rem 1.66% 3rem;
+        float: left;
+        
+        img{
+            width: 100%;
+            height: auto;
+        }
+        
+        h3{
+            margin: 1rem 0;
+        }
+        
+        p{
+            margin: 0;
+        }
+                    
+        .diensten{
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+            
+            a{
+            color: $brand-primary;
+        }
+        }
+    }
+}

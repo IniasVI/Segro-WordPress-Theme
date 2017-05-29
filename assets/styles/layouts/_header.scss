@@ -1,0 +1,31 @@
+header.banner{
+    background-color: white;
+    width: 100vw;
+    overflow: auto;
+    position: fixed;
+    z-index: 9;
+    display: block;
+}
+
+/*.container{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow: auto;
+}*/
+
+nav.nav-primary{
+    float: right;
+    margin: 0.5rem 3rem 0 0;
+    
+    /*.sub-menu{
+        list-style-type: none;
+        padding: 0 0 0 0.5rem;
+        display: none;
+    }
+    .menu-item-has-children:hover{
+        .sub-menu{
+            display:list-item;
+        }
+    } */
+}

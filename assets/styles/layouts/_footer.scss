@@ -1,0 +1,66 @@
+.CTA{
+    background-color: $brand-primary;
+    overflow: auto;
+    width: 100vw;
+    color: white;
+    
+    .call-to-action{
+        width: 55%;
+        float: left;
+        margin: 1.8rem 0 2.2rem 8%;
+    }
+    
+    .icons{
+        overflow: hidden;
+        width: 30%;
+        float: right;
+        margin: 2rem 5% 2.3rem 0;
+        
+        .call,
+        .mail{
+            width: 40%;
+            float: left;
+            .svg{
+                width: 4.5rem;
+                height: 4.5rem;
+                border-radius: 50%;
+                border: 0.15rem solid white;
+                margin: 0 auto;
+            }
+        }
+        .call .svg svg{
+            width: 60%;
+            margin: 20%;
+        }
+        .mail .svg svg{
+            width: 70%;
+            margin: 28% 15%;
+        }
+    }
+    
+    h4{
+        margin: 0.5rem 0 0 0;
+    }
+}
+
+.copycontainer{
+    max-width: 1400px;
+}
+
+.copyright{
+    background-color: $brand-secondary;
+    padding: 0.5rem;
+    margin-left: -1rem;
+    
+    p{
+        margin: 0;
+    }
+    
+    .pipe{
+        margin: 0 1.5rem;
+    }
+    .inhoud{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}

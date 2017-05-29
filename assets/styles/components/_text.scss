@@ -1,0 +1,88 @@
+body{
+    color: $brand-secondary;
+}
+
+a{
+    color: $brand-secondary;
+}
+a:hover{
+    color: $brand-secondary;
+    text-decoration: underline;
+}
+
+a.brand{
+    color: $brand-primary;
+    float: left;
+    padding: 0.5rem 0.5rem;
+    margin-left: 2.5rem;
+    text-transform: uppercase;
+}
+a.brand:hover,
+a.brand:clicked{
+    background-color: $brand-primary;
+    color: white;
+    text-decoration: none;
+
+}
+
+nav.nav-primary{
+    a{
+        color: $brand-primary;
+        padding: 0 0 0.4em 0;
+        margin-left: 1.5em;
+        border-bottom: 3px solid white;
+    }
+    a:hover,
+    .current-menu-item a{
+        border-bottom: 3px solid $brand-primary;
+        text-decoration: none;
+        color: $brand-primary
+    }
+}
+
+h1{
+    font-size: 2em;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0.5rem 0 1.3rem 0;
+}
+
+h2.call-to-action{
+    color: white;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 2.3rem;
+    line-height: 3.3rem;
+}
+
+h2.quote{
+    
+}
+
+h3{
+    font-size: 1.3em;
+    font-weight: normal;
+    color: $brand-primary;
+    margin-bottom: 0.5rem;
+}
+
+h4{
+    font-weight: lighter;
+    text-align: center;
+}
+
+.copyright{
+    color: white;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    text-align: center;
+    
+    a{
+        color: white;
+        text-decoration: underline;
+    }
+}
+
+.text-brandcolor{
+    color: $brand-primary;
+}

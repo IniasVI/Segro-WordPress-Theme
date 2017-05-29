@@ -1,0 +1,44 @@
+.wrap{
+    margin:0;
+    padding: 0;
+    width: 100vw;
+}
+.page-header{
+    width: 100vw;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0 0 2.5em 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+    .page-header:before,
+    .page-header:after{
+        margin: 0;
+        padding: 0;
+        width: 0;
+    }
+    .map{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+}
+
+
+
+
+// VERSCHIJNT NIET ALTIJD ?!
+.req label::after{
+    content: "*";
+    color: tomato;
+}
+
+
+// Import pages
+@import "components/home";
+@import "components/contact";
+@import "components/about";
+@import "components/404";
+@import "components/realisaties";

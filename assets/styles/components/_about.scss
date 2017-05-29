@@ -1,0 +1,29 @@
+// About-page
+.about-header{
+    height: 70vh;
+    padding-top: 2.5rem;
+    overflow: auto;
+    
+    img{
+        margin-top: 4rem;
+    }
+    
+    h2{
+        font-size: 3.8rem;
+        color: $brand-primary;
+        font-weight: lighter;
+        font-style: italic;
+        margin: 6rem 0 1.5rem;
+    }
+    
+    h6{
+        font-size: 1.3rem;
+        color: $brand-secondary;
+        font-weight: lighter;
+        font-style: italic;
+    }
+}
+.about-body{
+    background-color: white;
+    padding: 5rem 0;
+}
