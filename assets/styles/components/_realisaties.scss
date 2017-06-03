@@ -1,4 +1,4 @@
-.realisaties{
+.realisaties_wrap{
     width: 80%;
     margin: 5rem auto 0;
     overflow: auto;
@@ -30,5 +30,21 @@
             color: $brand-primary;
         }
         }
+    }
+}
+
+.filter{
+    padding: 0 2.4rem;
+    width: auto;
+    margin: 0 auto;
+    
+    li{
+        display: inline;
+        list-style-type: none;
+        margin: 0 1rem;
+    }
+    .filter-icon{
+        width: 70px;
+        height: auto;
     }
 }

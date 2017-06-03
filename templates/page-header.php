@@ -25,7 +25,7 @@ if ( is_page(1967)) {
 
 <?php 
 //Check if Homepage
-} elseif (is_page(1961)) { 
+} elseif (is_front_page()) { 
 
 //Get BG-image
 $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );
