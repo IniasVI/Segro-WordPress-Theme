@@ -1,4 +1,7 @@
 // Contact
+body{
+    padding: none;
+}
 .contact-info{
     h3{
         margin-top: 1rem;
@@ -59,7 +62,7 @@ form{
         background-color: $brand-primary;
         color: white;
         border: none;
-        border-radius: 0.1rem;
+        border-radius: 5px;
     }
     input:hover{
         cursor: pointer;

@@ -17,12 +17,10 @@ a.brand{
     margin-left: 2.5rem;
     text-transform: uppercase;
 }
-a.brand:hover,
-a.brand:clicked{
+a.brand:hover{
     background-color: $brand-primary;
     color: white;
     text-decoration: none;
-
 }
 
 nav.nav-primary{

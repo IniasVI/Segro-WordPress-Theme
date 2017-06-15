@@ -1,7 +1,20 @@
-ohtml{ min-width: 320px;}
+.wprmenu_bar,
+.wrap,
+footer,
+.page-header,
+#mapDiv{ min-width: 340px;}
+
 .max-width{
     max-width: 1500px;
     margin: 0 auto;
+    overflow: hidden;
+}
+.break{
+    display: none;
+}
+
+.realisatie{
+    width: 33.33%;
 }
 
 
@@ -63,6 +76,40 @@ ohtml{ min-width: 320px;}
 } */
 
 
+// MAX WIDTH 1111PX
+@media screen and (max-width: 1111px){
+    // REALISATIES
+    .realisatie{
+        width: 49%;
+    }
+}
+
+
+// MAX WIDTH 1024PX
+@media screen and (max-width: 1024px){
+    //HEADER
+    .logo{
+        top: 14rem;
+    }
+    .contactbtn{
+        top: 20rem;
+    }
+}
+
+
+// MAX WIDTH 800PX
+@media screen and (max-width: 800px){
+    //HEADER
+    .logo{
+        width: 50%;
+        top: 10rem;
+    }
+    .contactbtn{
+        top: 16rem;
+    }
+}
+
+
 // MAX WIDTH 790PX
 @media screen and (max-width: 790px){
     
@@ -108,14 +155,6 @@ ohtml{ min-width: 320px;}
             font-size: 1rem;
         }
     }
-    
-    
-    // CONTACT  *WERKT NOG NIET*
-    .contact-info{
-        .panel-grid-cell{
-            clear: both;
-        }
-    }
 }
 
 
@@ -130,7 +169,99 @@ ohtml{ min-width: 320px;}
         max-width: 80%;
         margin: 0 auto;
     }
-    .panel-grid-cell{
+    .panel-layout{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .dienst-icons{
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    
+    
+    // FOOTER
+    .call-to-action,
+    .icons{
+        display: block;
+        clear: both;
+        margin: 1rem auto;
         
+    }
+    
+    // ABOUT
+    .about-body{
+        width: 100%;
+    }
+    
+    // REALISATIES
+    .realisatie{
+        width: 100%;
+        text-align: center;
+    }
+     h3.realisatie-naam{
+        font-size: 1.3rem;
+    }
+    
+    .filter{
+        li{
+           margin: 0 0.8% 1rem;
+            width: 11.5%;
+        }
+        .filter-icon{
+            width: 100%;
+            height: auto;
+        }
+}
+    
+    
+}
+
+
+// MAX WIDTH 760PX
+@media screen and (max-width: 760px){
+    .pipe{display: none;}
+    .break{display: inline;}
+}
+
+// MAX WIDTH 650PX
+@media screen and (max-width: 650px){
+    //HEADER
+    .logo{
+        width: 60%;
+        top: 10rem;
+    }
+    .contactbtn{
+        top: 16rem;
+    }
+    
+    //CONTACT
+    .naam,
+    .onderwerp,    
+    .mail,
+    .telefoon,
+    .vraag{
+        width: 100%;
+    }
+    
+    // REALISATIES
+    .realisaties_wrap{
+        width: 100%;
+    }
+}
+
+
+// MAX WIDTH 450PX
+@media screen and (max-width: 450px){
+    .max-width{
+        max-width: 100%;
+    }
+    
+    //HEADER
+    .logo{
+        width: 80%;
+        top: 10rem;
+    }
+    .contactbtn{
+        top: 16rem;
     }
 }

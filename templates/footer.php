@@ -1,15 +1,7 @@
 <footer class="content-info">
-    <!-- Check if is home -->
+    <!-- Check if is contact -->
     <?php   if ( is_page(1967) ) { ?>
         
-        <div class="copyright">
-            <div class="max-width">
-                <div class="inhoud">
-                    <p><span class="copy">All Rights Reserved - <?php echo date('Y'); ?> &copy; Grondwerken Segro BVBA  |  BTW:  BE 0672.986.790  |  Website & Branding by <a href="https://www.linkedin.com/in/inias-v-5431a0a3/" target="_blank">Inias Van Ingelgom</a></span></p>
-                </div>
-            </div>
-        </div>
-    </div>
     <!--<div class="container">
         <?php // dynamic_sidebar('sidebar-footer'); ?>
     </div>-->
@@ -47,18 +39,6 @@
     </div>
     </div>
 
-    <div class="copyright">
-        <div class="max-width">
-            <div class="inhoud">
-                <p> All Rights Reserved &copy; <?php echo date('Y'); ?> - Grondwerken Segro BVBA
-                    <span class="pipe">|</span>
-                    BTW:  BE 0672.986.790
-                    <span class="pipe">|</span>
-                    Website & branding by <a href="https://www.linkedin.com/in/inias-v-5431a0a3/" target="_blank">Inias Van Ingelgom</a>
-                </p>
-            </div>
-        </div>
-    </div>
     <!--<div class="container">
         <?php // dynamic_sidebar('sidebar-footer'); ?>
     </div>-->
@@ -97,18 +77,6 @@
     </div>
     </div>
 
-    <div class="copyright">
-        <div class="max-width">
-            <div class="inhoud">
-                <p> All Rights Reserved &copy; <?php echo date('Y'); ?> - Grondwerken Segro BVBA
-                    <span class="pipe">|</span>
-                    BTW:  BE 0672.986.790
-                    <span class="pipe">|</span>
-                    Website & branding by <a href="https://www.linkedin.com/in/inias-v-5431a0a3/" target="_blank">Inias Van Ingelgom</a>
-                </p>
-            </div>
-        </div>
-    </div>
     <!--<div class="container">
         <?php // dynamic_sidebar('sidebar-footer'); ?>
     </div>-->
@@ -116,4 +84,19 @@
     <?php
         }
     ?>
+
+    <div class="copyright">
+        <div class="max-width">
+            <div class="inhoud">
+                <p> All Rights Reserved &copy; <?php echo date('Y'); ?> - Grondwerken Segro BVBA
+                    <span class="break"></br></span>
+                    <span class="pipe">|</span>
+                    BTW:  BE 0672.986.790
+                    <span class="break"></br></span>    
+                    <span class="pipe">|</span>
+                    Website & branding by <a href="https://www.linkedin.com/in/inias-v-5431a0a3/" target="_blank">Inias Van Ingelgom</a>
+                </p>
+            </div>
+        </div>
+    </div>
 </footer>

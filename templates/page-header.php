@@ -1,5 +1,5 @@
 <?php use Roots\Sage\Titles; 
-
+    $rootmap = get_stylesheet_directory_uri();
 
 //Check if Contactpage
 if ( is_page(1967)) { 
@@ -34,28 +34,9 @@ $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 
 ?>
     <div class="home page-header" style="background: url('<?php echo $backgroundImg[0]; ?>'); background-size: cover; Background-position: center;">
       <!--<h1><?= Titles\title(); ?></h1>-->
+        <img src="<?php echo $rootmap. '/assets/images/logo.png' ?>" alt="Logo Grondwerken Segro BVBA" class="logo">
+        <a href="wordpress/contact"><button class="contactbtn">Neem snel contact met ons op!</button></a>
     </div>
-
-
-
-
-<?php
-//WERKT NOG NIET
-    
-//Check if Realisaties
-//}  elseif (is_page(1965)) {
-
-//Get BG-image
- //$backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id(1965), 'full' );
-
-//Set Headerimage
-?>
-<!--
-    <div class="page-header" style="background: url('<?php// echo $backgroundImg[0]; ?>'); background-size: cover; Background-position: center;">
-      <h1><?php // Titles\title(); ?></h1>
-    </div>
--->
-
 
 
 

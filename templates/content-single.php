@@ -12,5 +12,3 @@
     <?php comments_template('/templates/comments.php'); ?>
   </article>
 <?php endwhile; ?>
-
-<!-- JQuery Lightbox! -->

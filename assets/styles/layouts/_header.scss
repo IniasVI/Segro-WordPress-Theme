@@ -7,12 +7,6 @@ header.banner{
     display: block;
 }
 
-/*.container{
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    overflow: auto;
-}*/
 
 nav.nav-primary{
     float: right;
@@ -28,4 +22,35 @@ nav.nav-primary{
             display:list-item;
         }
     } */
+}
+
+.logo{
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    top: 10rem;
+}
+
+.contactbtn{
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    padding: 0.3rem 0.6rem;
+    position: relative;
+    top: 16rem;
+    
+    border-radius: 25px;
+    border: none;
+//    min-height: 2rem;
+    background-color: $brand-primary;
+    
+    font-size: 1.2rem;
+    color: #fff;
+}
+.home.page-header a{
+    text-decoration: none;
+}
+.contactbtn:hover{
+    cursor: pointer;
 }
