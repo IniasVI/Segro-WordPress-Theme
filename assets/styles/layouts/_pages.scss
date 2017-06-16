@@ -21,7 +21,18 @@
     }
 }
 
-
+.dienst-icons{
+    max-width: 170px;  
+    margin: 0 auto;
+    
+    a{
+        border-bottom: 1px dotted $brand-secondary;
+    }
+    a:hover{
+        text-decoration: none;
+        border-bottom: 1px solid $brand-secondary;
+    }
+}
 
 
 // VERSCHIJNT NIET ALTIJD ?!
